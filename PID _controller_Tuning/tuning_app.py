@@ -6,7 +6,6 @@ from scipy.signal import find_peaks, TransferFunction, bode
 from scipy.optimize import minimize
 from scipy.io import loadmat
 
-# Display the company logo, name, and email address alongside the app title
 st.set_page_config(layout="wide")
 col1, col2 = st.columns([1, 5])  # Adjust column width for positioning
 with col1:
@@ -14,11 +13,11 @@ with col1:
     st.markdown("""
         <div style="font-size: 14px; font-weight: bold; margin-top: 5px;">
              Masoud Bakhshi<br>
-             <a href="mailto:masoud.bakhshi@consultant.volvo.com">masoud.bakhshi@consultant.volvo.com</a>
+             <a href="mailto:masoud.bakhshi@volvo.com">masoud.bakhshi@volvo.com</a>
         </div>
         """, unsafe_allow_html=True)
 with col2:
-    st.title("Enhanced PI Controller Tuning and Stability App")
+    st.title("PI Controller Tuning and Stability App")
 
 # Sidebar for user instructions
 st.sidebar.header("Instructions for Optimal Tuning")
