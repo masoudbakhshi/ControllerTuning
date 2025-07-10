@@ -9,7 +9,7 @@ from scipy.io import loadmat
 st.set_page_config(layout="wide")
 col1, col2 = st.columns([1, 5])  # Adjust column width for positioning
 with col1:
-    st.image("logo.jpg", width=150)  # Replace "logo.jpg" with your actual logo path
+    st.image("logo.jpg", width=150) 
     st.markdown("""
         <div style="font-size: 14px; font-weight: bold; margin-top: 5px;">
              Masoud Bakhshi<br>
